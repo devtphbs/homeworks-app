@@ -1,0 +1,48 @@
+:root {
+  --g1: #5f9cff;
+  --g2: #a855f7;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(160deg, var(--g1), var(--g2));
+  height: 100vh;
+  color: white;
+}
+
+header {
+  padding: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(30px);
+  border-radius: 22px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(30px);
+}
+
+nav button {
+  flex: 1;
+  padding: 16px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
