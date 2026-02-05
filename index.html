@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Homeworks</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Tesseract.js for OCR -->
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.1.1/dist/tesseract.min.js"></script>
+</head>
+
+<body>
+<div id="app">
+  <header>
+    <h1 id="title">Homeworks</h1>
+  </header>
+
+  <main id="content"></main>
+
+  <nav class="tabbar">
+    <button class="active" onclick="setTab(0)">🏠</button>
+    <button onclick="setTab(1)">📅</button>
+    <button onclick="setTab(2)">🔍</button>
+    <button onclick="setTab(3)">⚙️</button>
+    <button onclick="setTab(4)">👤</button>
+  </nav>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
